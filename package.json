@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.27.10",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "slidev-theme-penguin": "^1.1.2",
+    "vite-svg-loader": "^3.0.0"
+  },
+  "name": "intro-to-svg"
+}
