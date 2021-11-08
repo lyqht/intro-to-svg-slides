@@ -3,7 +3,8 @@
   "scripts": {
     "build": "slidev build --base /intro-to-svg-slides/",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "eject": "slidev theme eject"
   },
   "dependencies": {
     "@slidev/cli": "^0.27.10",
@@ -12,5 +13,8 @@
     "slidev-theme-penguin": "^1.1.2",
     "vite-svg-loader": "^3.0.0"
   },
-  "name": "intro-to-svg"
+  "name": "intro-to-svg",
+  "devDependencies": {
+    "@iconify-json/ri": "^1.0.1"
+  }
 }

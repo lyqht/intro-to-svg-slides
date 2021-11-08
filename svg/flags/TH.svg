@@ -1,0 +1,7 @@
+<svg>
+    <rect width="100%" height="20%" y="0" fill="red" />
+    <rect width="100%" height="20%" y="20%" fill="white" />
+    <rect width="100%" height="20%" y="40%" fill="blue" />
+    <rect width="100%" height="20%" y="60%" fill="white" />
+    <rect width="100%" height="20%" y="80%" fill="red" />
+</svg>

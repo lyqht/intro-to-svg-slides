@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Kalam Regular';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: local('Kalam Regular'),
+    url('/fonts/Kalam-Regular.ttf') format('ttf');
+}
