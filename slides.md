@@ -15,7 +15,7 @@ title: Intro to SVG
 # Intro to SVG
 
 
-<div v-click>
+<div>
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
     Let's start <carbon:arrow-right class="inline"/>
   </span>
@@ -29,14 +29,13 @@ presenterImage: 'https://pbs.twimg.com/profile_images/1441783883456942080/vV37mS
 
 # Estee Tey
 
+- 💻 Grad Software Developer at Thoughtworks
+- ✏ Writes about Web Dev, UI, Dev growth
+- 🎨 Experienced in creating mockups & graphics
 
-<div class="my-10 grid grid-cols-[40px,1fr] w-min gap-y-4">
-  <ri-github-line class="opacity-50"/>
-  <div><a href="https://github.com/lyqht" target="_blank">lyqht</a></div>
-  <ri-twitter-line class="opacity-50"/>
-  <div><a href="https://twitter.com/estee_tey" target="_blank">estee_tey</a></div>
-  <ri-pencil-line class="opacity-50"/>
-  <div><a href="https://esteetey.dev" target="_blank">https://esteetey.dev</a></div>
+<div class="my-10 grid grid-cols-[80px,1fr]">
+  <div><ri-github-line class="opacity-50"/><a href="https://github.com/lyqht" target="_blank">lyqht</a></div>
+  <div><ri-twitter-line class="opacity-50"/><a href="https://twitter.com/estee_tey" target="_blank">estee_tey</a></div>
 </div>
 
 ---
@@ -56,12 +55,54 @@ class: text-center
 # What is SVG?
 
 ---
+layout: center
+class: text-center
+---
 
 # Images
 
-![raster vs vector images](https://vector-conversions.com/images/vector_vs_raster.jpg)
+<div>
+  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
+    Story Time! <carbon:arrow-right class="inline"/>
+  </span>
+</div>
 
-<!-- Images comprise up to 60%-65% of bytes on most web pages and page size is a major factor in total rendering time. Page size is especially important for mobile devices, where smaller size images will help to save both bandwidth and battery life. -->
+---
+
+<div class="grid grid-cols-2">
+<img v-click src="https://i.etsystatic.com/10236183/c/1599/1271/170/109/il/fd287d/2254910083/il_340x270.2254910083_srgv.jpg" />
+<img v-click src="/story-raster-vs-vector/telegram_chat.png" />
+</div>
+
+---
+
+<div class="grid grid-cols-2">
+<img v-click src="/story-raster-vs-vector/draft1.jpg" />
+<img v-click src="/story-raster-vs-vector/draft2.jpg" />
+</div>
+
+---
+
+<img class="h-80 mx-auto" src="/story-raster-vs-vector/draft_done.jpg" />
+
+
+---
+
+<div class="grid grid-cols-2">
+
+<img v-click src="/story-raster-vs-vector/design.png" />
+<img v-click src="/story-raster-vs-vector/design_colored.png" />
+
+</div>
+---
+
+<img src="/story-raster-vs-vector/design_final.png" />
+
+---
+
+# Raster vs Vector Images
+
+![raster vs vector images](https://vector-conversions.com/images/vector_vs_raster.jpg)
 
 ---
 
@@ -133,7 +174,7 @@ logoHeader: '/terminal-box-fill.svg'
 
 <div class="demo-container">
   <svg class="demo-svg">
-      <rect width="100%" height="100%" y="0" fill="white" />
+      <rect width="100%" height="100%" fill="white" />
       <circle cx="50%" cy="50%" r=60 fill="#BC002D" />
   </svg>
 </div>
@@ -142,7 +183,7 @@ logoHeader: '/terminal-box-fill.svg'
 
 ```html {all}
 <svg>
-    <rect width="100%" height="100%" y="0" fill="white" />
+    <rect width="100%" height="100%" fill="white" />
     <circle cx="50%" cy="50%" r=60 fill="#BC002D" />
 </svg>
 ```
@@ -281,6 +322,22 @@ class: text-center
 </div>
 
 <!-- TODO: try drawing gummy bear in Figma and exporting it as a file, then show how to use it as a developer  -->
+
+---
+layout: center
+class: text-center
+---
+
+# Figma Demo
+
+Ellipse,
+Polygon,
+Paths,
+Bezier Curves
+
+<a href="https://www.figma.com/file/vHcMllyWIi5lPMhKldSI7k/intro-to-svg-shapes"><img class="h-20 mx-auto" src="https://cdn.icon-icons.com/icons2/2429/PNG/512/figma_logo_icon_147289.png" /></a>
+
+<!-- Demo: bezier curve ear, adding triangle party hat -->
 
 ---
 
