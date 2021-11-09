@@ -289,7 +289,7 @@ class: text-center
 <div class="mx-auto h-80 grid grid-cols-2">
   <div>
     1. <a href="https://squircley.app/">Squicley</a> for generating Squircles
-    <img class="mt-6 pr-6" src="squircley-demo.png" />
+    <img class="mt-6 pr-6" src="/squircley-demo.png" />
   </div>
   <Tweet v-click id="1455232312770273281" />
 </div>
@@ -301,7 +301,7 @@ class: text-center
 <div class="mx-auto h-80 grid grid-cols-2">
   <div>
     2. <a href="https://www.svgbackgrounds.com/">SVGBackgrounds.com</a> for generating backgrounds
-    <img class="mt-6 pr-6" src="SVGBackgrounds-demo.png" />
+    <img class="mt-6 pr-6" src="/SVGBackgrounds-demo.png" />
   </div>
   <Tweet v-click id="1444814549341782018" />
   
