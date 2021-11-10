@@ -236,7 +236,7 @@ logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
         points="100,10 40,198 190,78 10,78 160,198" />
     </defs>
     <rect width="100%" height="100%" fill="red" />
-    <svg viewBox="78 0 600 600" x="25%" y="25%">
+    <svg viewBox="100 0 600 600" x="25%" y="25%">
       <use href="#star">
       </use>
     </svg>
@@ -252,7 +252,7 @@ logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
       points="100,10 40,198 190,78 10,78 160,198" />
   </defs>
   <rect width="100%" height="100%" fill="red" />
-  <svg viewBox="78 0 600 600" x="25%" y="25%">
+  <svg viewBox="100 0 600 600" x="25%" y="25%">
     <use href="#star">
     </use>
   </svg>
@@ -340,6 +340,41 @@ Bezier Curves
 <!-- Demo: bezier curve ear, adding triangle party hat -->
 
 ---
+layout: new-section
+logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
+---
+# Setting SVG File as an image source
+
+<div class='grid grid-cols-2'>
+<img class='mx-auto' src="/svg/animals/Rabbit.svg"/>
+
+```html
+<img src="/svg/animals/Rabbit.svg"/>
+```
+</div>
+
+<!-- When you add an SVG image using the <img> tag without specifying the size, it assumes the size of the original SVG file. -->
+
+---
+layout: new-section
+logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
+---
+# Setting SVG File as an image source
+
+<div class='grid grid-cols-2'>
+<img class='mx-auto' style="height:240px;" src="/svg/animals/Rabbit.svg"/>
+
+```html
+<img 
+  src="/svg/animals/Rabbit.svg" 
+  style="height:240px;" />
+```
+
+</div>
+
+<!-- When you add an SVG image using the <img> tag without specifying the size, it assumes the size of the original SVG file. -->
+
+---
 
 # Generate SVG
 
@@ -368,14 +403,19 @@ Bezier Curves
 
 # Extract from websites
 
-[SVGOMG](https://jakearchibald.github.io/svgomg/) Demo with Hacktoberfest's SVG
+Demo with [Hacktoberfest's SVG](https://hacktoberfest.digitalocean.com/)
+
+---
+
+# Bonus: optimization of SVG
+
+[SVGOMG](https://jakearchibald.github.io/svgomg/) 
 
 ---
 
 # More Resources
 
 - [MDN Web Docs on SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
-- [Smashing Magazine - SVG generators](https://www.smashingmagazine.com/2021/03/svg-generators/)
 - [CSS Tricks - how to scale SVG](https://css-tricks.com/scale-svg/)
 - [Frontend Masters - SVG Essentials & Animations v2](https://frontendmasters.com/courses/svg-essentials-animation/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar)
 
