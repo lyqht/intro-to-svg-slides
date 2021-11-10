@@ -167,7 +167,7 @@ class: text-center
 
 ---
 layout: new-section
-logoHeader: '/terminal-box-fill.svg'
+logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
 ---
 
 # JP flag in SVG 
@@ -193,7 +193,7 @@ logoHeader: '/terminal-box-fill.svg'
 
 ---
 layout: new-section
-logoHeader: '/terminal-box-fill.svg'
+logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
 ---
 
 # TH flag in SVG
@@ -224,7 +224,7 @@ logoHeader: '/terminal-box-fill.svg'
 
 ---
 layout: new-section
-logoHeader: '/terminal-box-fill.svg'
+logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
 ---
 
 # VN flag in SVG 
@@ -264,7 +264,7 @@ logoHeader: '/terminal-box-fill.svg'
 
 ---
 layout: new-section
-logoHeader: '/terminal-box-fill.svg'
+logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
 ---
 
 # SG flag in SVG
