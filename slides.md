@@ -40,6 +40,30 @@ presenterImage: 'https://pbs.twimg.com/profile_images/1441783883456942080/vV37mS
 
 ---
 
+# Expectations
+
+<div class='grid grid-cols-2 grid-rows-2 gap-20'>
+  <div v-click>
+    <h2>No Prerequisites</h2>
+    <code>expect(target_audience).toBeAny()</code>
+  </div>
+  <div v-click>
+    <h2>Your time to be worth it</h2>
+    <code>expect(🍚⏱).toYield(✅)</code>
+  </div>
+  <div v-click>
+    <h2>Learn something</h2>
+    <code>expect(🧠).toIncrease();</code>
+  </div>
+  <div v-click>
+    <h2>Have fun thinking</h2>
+    <code>expect(🤔).andThen(😄)</code>
+  </div>
+
+</div>
+
+---
+
 # Table of Contents
 
 1. What is SVG?
@@ -362,15 +386,44 @@ logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
 # Setting SVG File as an image source
 
 <div class='grid grid-cols-2'>
-<img class='mx-auto' style="height:240px;" src="/svg/animals/Rabbit.svg"/>
+<img class='mx-auto special-image' src="/svg/animals/Rabbit.svg"/>
+<div>
 
 ```html
-<img 
-  src="/svg/animals/Rabbit.svg" 
-  style="height:240px;" />
+<img src="/svg/animals/Rabbit.svg" 
+  class="special-image" />
+```
+
+```css
+.special-image {
+  height:240px; 
+  animation:spin 4s linear infinite;
+}
+
+@keyframes spin { 
+  100% {
+      transform:rotate(360deg); 
+  } 
+}
 ```
 
 </div>
+
+
+</div>
+
+<style>
+.special-image {
+  height:240px; 
+  animation:spin 4s linear infinite;
+}
+
+@keyframes spin { 
+  100% {
+      transform:rotate(360deg); 
+  } 
+}
+</style>
 
 <!-- When you add an SVG image using the <img> tag without specifying the size, it assumes the size of the original SVG file. -->
 
@@ -383,7 +436,6 @@ logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
     1. <a href="https://squircley.app/">Squicley</a> for generating Squircles
     <img class="mt-6 pr-6" src="/squircley-demo.png" />
   </div>
-  <Tweet v-click id="1455232312770273281" />
 </div>
 
 ---
@@ -395,8 +447,6 @@ logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
     2. <a href="https://www.svgbackgrounds.com/">SVGBackgrounds.com</a> for generating backgrounds
     <img class="mt-6 pr-6" src="/SVGBackgrounds-demo.png" />
   </div>
-  <Tweet v-click id="1444814549341782018" />
-  
 </div>
 
 ---
@@ -405,9 +455,11 @@ logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
 
 Demo with [Hacktoberfest's SVG](https://hacktoberfest.digitalocean.com/)
 
+> P.S. If you use any extracted images for your own websites or apps, please remember to give **attribution**.
+
 ---
 
-# Bonus: optimization of SVG
+# Bonus: Optimization of SVG
 
 [SVGOMG](https://jakearchibald.github.io/svgomg/) 
 
@@ -420,9 +472,15 @@ Demo with [Hacktoberfest's SVG](https://hacktoberfest.digitalocean.com/)
 - [Frontend Masters - SVG Essentials & Animations v2](https://frontendmasters.com/courses/svg-essentials-animation/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar)
 
 ---
+
 # Thank you!
 
-Hope you enjoyed the L&L 😄
+Hope you enjoyed the L&L 😄 
+
 Any questions? 
 
-Feedback form -> ___
+--
+
+[Feedback form](https://forms.gle/HQ8JoEL3MuESbbVP9)
+
+<img src="/survey.svg" class='h-50' />
