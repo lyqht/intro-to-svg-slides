@@ -370,7 +370,7 @@ logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
 # Setting SVG File as an image source
 
 <div class='grid grid-cols-2'>
-<img class='mx-auto' src="/svg/animals/Rabbit.svg"/>
+<img class='mx-auto' src="https://raw.githubusercontent.com/lyqht/intro-to-svg-slides/main/public/svg/animals/Rabbit.svg"/>
 
 ```html
 <img src="/svg/animals/Rabbit.svg"/>
@@ -386,7 +386,7 @@ logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
 # Setting SVG File as an image source
 
 <div class='grid grid-cols-2'>
-<img class='mx-auto special-image' src="/svg/animals/Rabbit.svg"/>
+<img class='mx-auto special-image' src="https://raw.githubusercontent.com/lyqht/intro-to-svg-slides/main/public/svg/animals/Rabbit.svg"/>
 <div>
 
 ```html
@@ -483,4 +483,4 @@ Any questions?
 
 [Feedback form](https://forms.gle/HQ8JoEL3MuESbbVP9)
 
-<img src="/survey.svg" class='h-50' />
+<img src="https://raw.githubusercontent.com/lyqht/intro-to-svg-slides/main/public/survey.svg" class='h-50' />
