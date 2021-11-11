@@ -1,11 +1,5 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+![](./intro-to-svg-slides-cover.png)
 
-To start the slide show:
+This repository contains slides accompanying an internal lunch & learn session in Thoughtworks on Intro to SVG, that happened on 12 November 2021.
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
+Slides are built with [Slidev](https://github.com/slidevjs/slidev), with the [Penguin](https://github.com/alvarosaburido/slidev-theme-penguin) theme which I have slightly modified.
