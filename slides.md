@@ -285,6 +285,55 @@ logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
   
 </div>
 
+---
+layout: new-section
+logoHeader: '/intro-to-svg-slides/terminal-box-fill.svg'
+---
+
+## Polygon vs Polyline
+
+<div class='grid-cols-2 grid'>
+
+<div class="demo-container">
+  <svg class="demo-svg">
+    <defs>
+      <polygon id="polygon" points="100,10 40,198 190,78 10,78 160,198"  fill='#abcbca' stroke='#123123' stroke-width='5'  />
+    </defs>
+    <svg viewBox="100 0 300 300" x="25%" y="25%">
+      <use href="#polygon">
+      </use>
+    </svg>
+  </svg>
+
+```html {all}
+<polygon points="100,10 40,198 190,78 10,78 160,198" fill='#abcbca' stroke='#123123' stroke-width='5'  />
+```
+
+
+</div>
+
+<div class="demo-container">
+  <svg class="demo-svg">
+    <defs>
+      <polyline id="polyline" points="100,10 40,198 190,78 10,78 160,198"  fill='#abcbca' stroke='#123123' stroke-width='5'  />
+    </defs>
+    <svg viewBox="100 0 300 300" x="25%" y="25%">
+      <use href="#polyline">
+      </use>
+    </svg>
+  </svg>
+
+```html {all}
+<polyline points="100,10 40,198 190,78 10,78 160,198"  fill='#abcbca' stroke='#123123' stroke-width='5'  />
+```
+
+</div>
+
+
+
+
+</div>
+
 
 ---
 layout: new-section
@@ -337,7 +386,6 @@ class: text-center
 ---
 
 # Create SVG with Design Tools
-
 
 <div class='mx-auto px-4 w-100 grid place-items-center grid-cols-3 gap-x-10'>
   <a href="https://www.figma.com"><img src="https://cdn.icon-icons.com/icons2/2429/PNG/512/figma_logo_icon_147289.png" /></a>
@@ -465,6 +513,12 @@ Demo with [Hacktoberfest's SVG](https://hacktoberfest.digitalocean.com/)
 
 ---
 
+# Bonus for React Devs: convert from SVG to JSX
+
+[SVG to JSX Demo](https://svg2jsx.com/)
+
+---
+
 # Summary
 
 1. What is SVG?
@@ -476,15 +530,22 @@ Demo with [Hacktoberfest's SVG](https://hacktoberfest.digitalocean.com/)
 
 # SVG Element Cheatsheet
 
-![](/SVG%20Element%20Basics%20Cheatsheet.png)
+|     | Shape     | Usage Example                                              |
+| --- | --------- | ---------------------------------------------------------- |
+| 1.  | Square    | `<rect width="40" height="40" />`                          |
+| 2.  | Rectangle | `<rect width="80" height="40" />`                          |
+| 3.  | Circle    | `<circle cx="50%" cy="50%" r="60" />`                      |
+| 4.  | Ellipse   | `<ellipse cx="100" cy="50" rx="80" ry="40" />`             |
+| 5.  | Polygon   | `<polygon points="100,10 40,198 190,78 10,78 160,198" />`  |
+| 6.  | Polyline  | `<polyline points="100,10 40,198 190,78 10,78 160,198" />` |
 
 ---
 
-# Learn more!
+# Topics for you to explore more
 
-- More complex SVG elements such as patterns, filters
-- Accessibility
-- Performance
+- More complex SVG elements such as patterns, filters, paths
+- Accessibility of SVGs
+- Performance of SVGs
 
 ---
 
@@ -492,6 +553,7 @@ Demo with [Hacktoberfest's SVG](https://hacktoberfest.digitalocean.com/)
 
 - [MDN Web Docs on SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
 - [CSS Tricks - how to scale SVG](https://css-tricks.com/scale-svg/)
+- [Smashing Magazine - SVG Generators](https://www.smashingmagazine.com/2021/03/svg-generators/)
 - [Frontend Masters - SVG Essentials & Animations v2](https://frontendmasters.com/courses/svg-essentials-animation/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar)
 
 ---
