@@ -8,6 +8,10 @@ Slides are built with [Slidev](https://github.com/slidevjs/slidev), with the [Pe
 
 # SVG Element Basics Cheatsheet
 
+![](public/SVG%20Element%20Basics%20Cheatsheet.png)
+
+
+<!-- 
 
 | Shape     | Usage Example                                                                                                | Result                                                                                                                                                   |
 | --------- | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -17,3 +21,5 @@ Slides are built with [Slidev](https://github.com/slidevjs/slidev), with the [Pe
 | Ellipse   | `<ellipse cx="100" cy="50" rx="80" ry="40" fill='#abcbca' />`                                                | <svg><ellipse cx="50%" cy="50%" rx="80" ry="40" fill='#abcbca' /></svg>                                                                                  |
 | Polygon   | `<polygon points="100,10 40,198 190,78 10,78 160,198"  fill='#abcbca' stroke='#123123' stroke-width='5'  />` | <svg height='100' viewbox='0 0 300 300'><polygon points="100,10 40,198 190,78 10,78 160,198"  fill='#abcbca' stroke='#123123' stroke-width='5'  /></svg> |
 | Polyline  | `<polyline points="100,10 40,198 190,78 10,78 160,198" fill='#abcbca' stroke='#123123' stroke-width='5' />`  | <svg height='100' viewbox='0 0 300 300'><polyline points="100,10 40,198 190,78 10,78 160,198" fill='#abcbca' stroke='#123123' stroke-width='5' /></svg>  |
+
+-->

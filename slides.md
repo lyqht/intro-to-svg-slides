@@ -465,6 +465,29 @@ Demo with [Hacktoberfest's SVG](https://hacktoberfest.digitalocean.com/)
 
 ---
 
+# Summary
+
+1. What is SVG?
+2. Why do we use SVG?
+3. How do we get SVG?
+4. How to use SVG?
+
+---
+
+# SVG Element Cheatsheet
+
+![](/SVG%20Element%20Basics%20Cheatsheet.png)
+
+---
+
+# Learn more!
+
+- More complex SVG elements such as patterns, filters
+- Accessibility
+- Performance
+
+---
+
 # More Resources
 
 - [MDN Web Docs on SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
