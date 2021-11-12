@@ -388,7 +388,7 @@ class: text-center
 # Create SVG with Design Tools
 
 <div class='mx-auto px-4 w-100 grid place-items-center grid-cols-3 gap-x-10'>
-  <a href="https://www.figma.com"><img src="https://cdn.icon-icons.com/icons2/2429/PNG/512/figma_logo_icon_147289.png" /></a>
+  <a href="https://www.figma.com"><img src="https://cdn.freebiesupply.com/logos/thumbs/2x/figma-1-logo.png" /></a>
   <a href="https://www.sketch.com/"><img src="https://cdn.iconscout.com/icon/free/png-256/sketch-61-722739.png" /></a>
   <a href="https://www.adobe.com/sg/products/illustrator.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/1200px-Adobe_Illustrator_CC_icon.svg.png" /></a>
 </div>
@@ -407,7 +407,7 @@ Polygon,
 Paths,
 Bezier Curves
 
-<a href="https://www.figma.com/file/vHcMllyWIi5lPMhKldSI7k/intro-to-svg-shapes"><img class="h-20 mx-auto" src="https://cdn.icon-icons.com/icons2/2429/PNG/512/figma_logo_icon_147289.png" /></a>
+<a href="https://www.figma.com/file/vHcMllyWIi5lPMhKldSI7k/intro-to-svg-shapes"><img class="h-20 mx-auto" src="https://cdn.freebiesupply.com/logos/thumbs/2x/figma-1-logo.png" /></a>
 
 <!-- Demo: bezier curve ear, adding triangle party hat -->
 
