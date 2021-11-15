@@ -1,3 +1,4 @@
-<svg viewbox='0 0 60 60' xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+<svg viewbox='0 0 200 200' preserveAspectRatio="xMidYMid meet" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns="http://www.w3.org/2000/svg">
     <polyline points="100,10 40,198 190,78 10,78 160,198" fill='#abcbca' stroke='#123123' stroke-width='5' />
 </svg>
