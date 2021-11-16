@@ -146,10 +146,10 @@ class: text-center
 
 | File Extension                          | Color Modes                                            | Compression                 | Usage                                                            |
 | --------------------------------------- | ------------------------------------------------------ | --------------------------- | ---------------------------------------------------------------- |
-| <code>.gif</code>                       | Indexed Color                                          | Loseless                    | Animated images                                                  |
-| <code>.png</code>                       | Greyscale, True Color, Alpha                           | Loseless (better than .GIF) | Static Line art, iconic graphics where transparency matters.     |
+| <code>.gif</code>                       | Indexed Color                                          | Lossless                    | Animated images                                                  |
+| <code>.png</code>                       | Greyscale, True Color, Alpha                           | Lossless (better than .GIF) | Static Line art, iconic graphics where transparency matters.     |
 | <code>.jpg</code>  / <code>.jpeg</code> | True Color                                             | Lossy                       | Photographs, realistic images of people, venues etc.             |
-| <code>.webp</code>                      | Depends on compression                                 | Loseless / Lossy            | A superior image format of <code>.png</code> & <code>.jpg</code> |
+| <code>.webp</code>                      | Depends on compression                                 | Lossless / Lossy            | A superior image format of <code>.png</code> & <code>.jpg</code> |
 | <code>.svg</code>                       | Anything that can be specified using CSS color syntax. | NA                          | UI that requires to be redrawn accurately at different sizes     |
 
 
