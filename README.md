@@ -4,6 +4,8 @@ This repository contains slides accompanying an internal lunch & learn session i
 
 Slides are built with [Slidev](https://github.com/slidevjs/slidev), with the [Penguin](https://github.com/alvarosaburido/slidev-theme-penguin) theme which I have slightly modified.
 
+[An article has been published](https://esteetey.dev/introduction-to-svg) to incorporate feedback from the session and for more people to learn about SVG.
+
 ---
 
 ## SVG Element Basics Cheatsheet
